@@ -1,3 +1,5 @@
+require 'i18n'
+
 module LightService
   class LocalizationAdapter
     def failure(message_or_key, action_class, i18n_options = {})
